@@ -15,7 +15,7 @@ app.use(cors({
         'https://tuli-kitchen16may24.firebaseapp.com'
 
     ],
-    credentials: true
+    // credentials: true
 }));
 
 app.use(express.json());
